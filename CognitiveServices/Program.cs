@@ -46,7 +46,7 @@ namespace CognitiveServices
 
                 string result = await translator.TranslateAsync(input, targetLang);
 
-                Console.WriteLine($"\nTranslated ({targetLang}): {result}");
+                Console.WriteLine($"\nTranslated: ({targetLang}): {result}");
                 Console.WriteLine(new string('-', 40));
             }
 
